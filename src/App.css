@@ -1,5 +1,13 @@
 .App {
   text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.covid-image {
+  width: 370px;
+  margin-top: 50px ;
 }
 
 .App-logo {
@@ -34,5 +42,15 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 770px) {
+  .container {
+    margin: 0 10%;
+  }
+
+  .covid-image {
+    width: 100%;
   }
 }
